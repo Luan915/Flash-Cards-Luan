@@ -1,0 +1,75 @@
+criaCartao(
+    'conhecimentos gerais',
+    'pergunta',
+    'resposta'
+)
+criaCartao(
+    'geografia',
+    'pergunta',
+    'resposta'
+)
+criaCartao(
+    'astrologia',
+    'pergunta',
+    'resposta'
+)
+criaCartao(
+    'história',
+    'pergunta',
+    'resposta'
+)
+criaCartao(
+    'química',
+    'pergunta',
+    'resposta'
+)
+criaCartao(
+    'conhecimentos gerais',
+    'pergunta',
+    'resposta'
+)
+criaCartao(
+    'geografia',
+    'pergunta',
+    'resposta'
+)
+criaCartao(
+    'história',
+    'pergunta',
+    'resposta'
+)
+criaCartao(
+    'história',
+    'pergunta',
+    'resposta'
+)
+criaCartao(
+    'geografia',
+    'pergunta',
+    'resposta'
+)
+criaCartao(
+    'geografia',
+    'pergunta',
+    'resposta'
+)
+criaCartao(
+    'ciências',
+    'pergunta',
+    'resposta'
+)
+criaCartao(
+    'conhecimentos gerais',
+    'pergunta',
+    'resposta'
+)
+criaCartao(
+    'geografia',
+    'pergunta',
+    'resposta'
+) 
+criaCartao(
+    'química',
+    'pergunta',
+    'resposta'
+) 
