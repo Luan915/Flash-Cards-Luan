@@ -8,15 +8,16 @@ function criaCartao(categoria, pergunta, resposta) {
 <h3>${categoria}</h3>
 
 <div class="cartao__conteudo__pergunta">
-PERGUNTA - escrever a pergunta
+<p>${pergunta}<p>
 </div>
 
 <div class="cartao__conteudo__resposta">
-RESPOSTA - escrever a resposta
+<p>${resposta}<p>
 </div>
 
 </div>`
 
+container.appendChild(cartao)
 
 
 }
