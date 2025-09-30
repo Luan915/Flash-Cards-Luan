@@ -78,7 +78,7 @@ body{
 
     .cartao__conteudo__resposta{
         transform: rotateY(180deg);
-        background-color: #e3f304;
+        background-color: #c4062f;
         border: 4px solid var(--cor-da-borda);
     }
 
