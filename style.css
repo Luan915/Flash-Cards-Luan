@@ -1,17 +1,17 @@
-:root{
+:root {
     --text-color: #ffffff;
     --card-front-color: #5c07a1dc;
     --card-back-color: #f3f3f3;
-    --cor-da-borda:#f55409;
-    --cor-fundo-cartao:#c40707;
+    --cor-da-borda: #f55409;
+    --cor-fundo-cartao: #c40707;
 }
 
-body{
+body {
     background-color: rgb(219, 212, 212);
     font-family: "Bai Jamjure", sans-serif;
 }
 
-#container{
+#container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -19,14 +19,14 @@ body{
     gap: 3rem;
 }
 
-.cartao{
+.cartao {
     margin: 1rem 1rem;
     height: 20rem;
     flex-grow: 1;
     flex-basis: calc(33% - 6rem);
 }
 
-.cartao__conteudo{
+.cartao__conteudo {
     background-color: var(--card-front-color);
     text-align: center;
     height: 100%;
@@ -34,8 +34,8 @@ body{
     transition: transform 300ms ease-in-out;
 }
 
-.cartao__conteudo h3{
-    color:var(--text-color);
+.cartao__conteudo h3 {
+    color: var(--text-color);
     border: 1px solid var(--text-color);
     text-align: left;
     padding: 0.5rem;
@@ -46,43 +46,44 @@ body{
     backface-visibility: hidden;
 
 }
-.cartao__conteudo p{
+
+.cartao__conteudo p {
     margin-top: 1rem;
     padding: 2rem;
     margin-top: 4rem;
     font-size: 2vw;
 }
 
-.cartao__conteudo__pergunta p{
+.cartao__conteudo__pergunta p {
     color: var(--card-back-color);
     font-weight: 500;
 }
 
-.cartao__conteudo__resposta p{
-        color: var(--card-back-color);
-        font-weight: 700;
-    }
+.cartao__conteudo__resposta p {
+    color: var(--card-back-color);
+    font-weight: 700;
+}
 
-    .cartao:active .cartao__conteudo{
-        transform: rotateY(180deg);
-    }
+.cartao.active .cartao__conteudo {
+    transform: rotateY(180deg);
+}
 
-    .cartao__conteudo__pergunta,
-    .cartao__conteudo__resposta{
-        backface-visibility: hidden;
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        box-sizing: border-box;
-    }
+.cartao__conteudo__pergunta,
+.cartao__conteudo__resposta {
+    backface-visibility: hidden;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
 
-    .cartao__conteudo__resposta{
-        transform: rotateY(180deg);
-        background-color: #c40707
-        border: 4px solid var(--cor-da-borda);
-    }
+.cartao__conteudo__resposta {
+    transform: rotateY(180deg);
+    background-color: #c40707;
+    border: 4px solid var(--cor-da-borda);
+}
 
-footer{
+footer {
     background-color: black;
     color: white;
     bottom: 0;
